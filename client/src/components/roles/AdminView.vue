@@ -351,6 +351,15 @@ async function saveSetting() {
         </RouterLink>
 
         <RouterLink
+          to="/admin/offers-discounts"
+          class="px-3 py-1.5 bg-white text-[#202124] font-medium text-xs rounded-lg border border-[#E5E7EB] hover:bg-[#F7F7F8] hover:text-[#800020] hover:border-[#800020]/30 flex items-center gap-1.5 transition-colors cursor-pointer"
+        >
+          <Percent class="w-3.5 h-3.5" />
+          Offer &amp; Discount
+          <ExternalLink class="w-3 h-3 text-[#6B7280]" />
+        </RouterLink>
+
+        <RouterLink
           to="/admin/notifications"
           class="px-3 py-1.5 bg-white text-[#202124] font-medium text-xs rounded-lg border border-[#E5E7EB] hover:bg-[#F7F7F8] hover:text-[#800020] hover:border-[#800020]/30 flex items-center gap-1.5 transition-colors cursor-pointer"
         >

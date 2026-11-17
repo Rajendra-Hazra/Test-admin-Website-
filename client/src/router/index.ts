@@ -105,6 +105,13 @@ const router = createRouter({
       meta: { requiresAuth: true },
     },
     {
+      path: '/admin/offers-discounts',
+      name: 'admin-offers-discounts',
+      alias: ['/admin/offer-discount', '/admin/offers', '/admin/discounts'],
+      component: () => import('../views/admin/OfferDiscountView.vue'),
+      meta: { requiresAuth: true },
+    },
+    {
       path: '/admin/reworks',
       name: 'admin-reworks',
       alias: ['/admin/rework', '/admin/rework-requests', '/admin/rework-management'],
